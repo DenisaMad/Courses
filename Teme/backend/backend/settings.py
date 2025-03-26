@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     'ProfesoriApp.apps.ProfesoriappConfig',
     'StudentiApp.apps.StudentiappConfig',
     'AnUnivApp.apps.AnunivappConfig',
+
+    "drf_yasg",
+    "rest_framework",
+    "rest_framework_swagger",
 ]
 
 MIDDLEWARE = [
